@@ -29,7 +29,8 @@ class MarketplaceDB:
                     hsa_eligible INTEGER,
                     has_national_network INTEGER,
                     max_age_child INTEGER,
-                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
                 )
             ''')
 
@@ -109,31 +110,72 @@ class MarketplaceDB:
             conn.commit()
 
     def save_plan_data(self, plan_data: Dict[str, Any]):
-        """Save a single plan's data to the database"""
+        """Save or update a single plan's data in the database"""
         with self._get_connection() as conn:
             cursor = conn.cursor()
             
-            # Insert or update plan
-            cursor.execute('''
-                INSERT OR REPLACE INTO plans (
-                    plan_id, name, premium, metal_level, type, state,
-                    product_division, insurance_market, hsa_eligible,
-                    has_national_network, max_age_child
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            ''', (
-                plan_data['id'],
-                plan_data.get('name'),
-                plan_data.get('premium'),
-                plan_data.get('metal_level'),
-                plan_data.get('type'),
-                plan_data.get('state'),
-                plan_data.get('product_division'),
-                plan_data.get('insurance_market'),
-                int(plan_data.get('hsa_eligible', False)) if 'hsa_eligible' in plan_data else None,
-                int(plan_data.get('has_national_network', False)) if 'has_national_network' in plan_data else None,
-                plan_data.get('max_age_child')
-            ))
-
+            # Check if plan exists
+            cursor.execute('SELECT 1 FROM plans WHERE plan_id = ?', (plan_data['id'],))
+            plan_exists = cursor.fetchone() is not None
+            
+            if plan_exists:
+                # Update existing plan
+                cursor.execute('''
+                    UPDATE plans SET
+                        name = COALESCE(?, name),
+                        premium = COALESCE(?, premium),
+                        metal_level = COALESCE(?, metal_level),
+                        type = COALESCE(?, type),
+                        state = COALESCE(?, state),
+                        product_division = COALESCE(?, product_division),
+                        insurance_market = COALESCE(?, insurance_market),
+                        hsa_eligible = COALESCE(?, hsa_eligible),
+                        has_national_network = COALESCE(?, has_national_network),
+                        max_age_child = COALESCE(?, max_age_child),
+                        updated_at = CURRENT_TIMESTAMP
+                    WHERE plan_id = ?
+                ''', (
+                    plan_data.get('name'),
+                    plan_data.get('premium'),
+                    plan_data.get('metal_level'),
+                    plan_data.get('type'),
+                    plan_data.get('state'),
+                    plan_data.get('product_division'),
+                    plan_data.get('insurance_market'),
+                    int(plan_data.get('hsa_eligible', False)) if 'hsa_eligible' in plan_data else None,
+                    int(plan_data.get('has_national_network', False)) if 'has_national_network' in plan_data else None,
+                    plan_data.get('max_age_child'),
+                    plan_data['id']
+                ))
+                
+                # Delete existing related data to avoid duplicates
+                cursor.execute('DELETE FROM issuers WHERE plan_id = ?', (plan_data['id'],))
+                cursor.execute('DELETE FROM benefits WHERE plan_id = ?', (plan_data['id'],))
+                cursor.execute('DELETE FROM cost_sharings WHERE plan_id = ?', (plan_data['id'],))
+                cursor.execute('DELETE FROM deductibles WHERE plan_id = ?', (plan_data['id'],))
+                cursor.execute('DELETE FROM moops WHERE plan_id = ?', (plan_data['id'],))
+            else:
+                # Insert new plan
+                cursor.execute('''
+                    INSERT INTO plans (
+                        plan_id, name, premium, metal_level, type, state,
+                        product_division, insurance_market, hsa_eligible,
+                        has_national_network, max_age_child
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ''', (
+                    plan_data['id'],
+                    plan_data.get('name'),
+                    plan_data.get('premium'),
+                    plan_data.get('metal_level'),
+                    plan_data.get('type'),
+                    plan_data.get('state'),
+                    plan_data.get('product_division'),
+                    plan_data.get('insurance_market'),
+                    int(plan_data.get('hsa_eligible', False)) if 'hsa_eligible' in plan_data else None,
+                    int(plan_data.get('has_national_network', False)) if 'has_national_network' in plan_data else None,
+                    plan_data.get('max_age_child')
+                ))
+            
             # Save issuer
             if 'issuer' in plan_data and plan_data['issuer']:
                 issuer = plan_data['issuer']
