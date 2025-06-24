@@ -1,57 +1,220 @@
+import os
+from dotenv import load_dotenv
 import requests
 import pandas as pd
+import json  # Added for better error debugging
+import time  # Added for sleep functionality
 
-def fetch_healthcare_data(dataset_id, limit=10):
-    """
-    Fetch data from Data.Healthcare.gov API
-    
-    Args:
-        dataset_id (str): The ID of the dataset to fetch
-        limit (int): Number of records to return (default: 10)
-        
-    Returns:
-        pandas.DataFrame: A DataFrame containing the requested data
-    """
-    base_url = "https://data.medicaid.gov/api/1/metastore/schemas/dataset/items"
-    
-    try:
-        # First, get the dataset information
-        response = requests.get(f"{base_url}?identifier={dataset_id}")
-        response.raise_for_status()
-        dataset_info = response.json()
-        
-        # Extract the distribution URL
-        distribution_url = None
-        for distribution in dataset_info.get('distribution', []):
-            if distribution.get('format', '').lower() == 'csv':
-                distribution_url = distribution.get('downloadURL')
-                break
-        
-        if not distribution_url:
-            raise ValueError("No CSV distribution found for this dataset")
-        
-        # Download and read the CSV data
-        data = pd.read_csv(distribution_url, nrows=limit)
-        return data
-        
-    except requests.exceptions.RequestException as e:
-        print(f"Error fetching data: {e}")
-        return None
-    except Exception as e:
-        print(f"An error occurred: {e}")
-        return None
+# Load environment variables from .env file
+load_dotenv()
 
-# Example usage
+# Get API key from environment variables
+API_KEY = os.getenv('API_KEY') or "LjVgKDYzl3BCY5NTy88P11HBxqKbVdCe"
+BASE_URL = "https://marketplace.api.healthcare.gov/api/v1"
+
+def get_marketplace_data(zipcode, age, gender, income, year, drug_query):
+    # 1. Get county FIPS for ZIP code
+    fips_resp = requests.get(
+        f"{BASE_URL}/counties/by/zip/{zipcode}",
+        params={"apikey": API_KEY}
+    )
+    fips_resp.raise_for_status()
+    fips_data = fips_resp.json()
+    countyfips = fips_data['counties'][0]['fips']  # Take the first county
+
+    # 2. Search for plans
+    search_payload = {
+        "household": {
+            "income": income,
+            "people": [
+                {
+                    "age": age,
+                    "aptc_eligible": True,
+                    "gender": gender,
+                    "uses_tobacco": False
+                }
+            ]
+        },
+        "market": "Individual",
+        "place": {
+            "countyfips": countyfips,
+            "state": "NC",
+            "zipcode": zipcode
+        },
+        "year": year
+    }
+    plans_resp = requests.post(
+        f"{BASE_URL}/plans/search",
+        params={"apikey": API_KEY},
+        json=search_payload,
+        headers={"Content-Type": "application/json"}
+    )
+    plans_resp.raise_for_status()
+    plans_data = plans_resp.json()
+    first_plan = plans_data['plans'][0]  # Take the first plan for demonstration
+    plan_id = first_plan['id']
+
+    # 3. Get details for a specific plan
+    plan_details_resp = requests.get(
+        f"{BASE_URL}/plans/{plan_id}",
+        params={"year": year, "apikey": API_KEY}
+    )
+    plan_details_resp.raise_for_status()
+    plan_details = plan_details_resp.json()
+
+    # 4. Drug autocomplete to get RxCUI
+    drug_auto_resp = requests.get(
+        f"{BASE_URL}/drugs/autocomplete",
+        params={"q": drug_query, "apikey": API_KEY}
+    )
+    drug_auto_resp.raise_for_status()
+    drug_auto_data = drug_auto_resp.json()
+    rxcui = drug_auto_data['drugs'][0]['rxcui']  # Take the first match
+
+    # 5. Check if the drug is covered by the plan
+    drug_covered_resp = requests.get(
+        f"{BASE_URL}/drugs/covered",
+        params={
+            "year": year,
+            "drugs": rxcui,
+            "planids": plan_id,
+            "apikey": API_KEY
+        }
+    )
+    drug_covered_resp.raise_for_status()
+    drug_covered_data = drug_covered_resp.json()
+
+    # Return all gathered data as a dictionary
+    return {
+        "county_fips": countyfips,
+        "plans": plans_data,
+        "plan_details": plan_details,
+        "drug_rxcui": rxcui,
+        "drug_coverage": drug_covered_data
+    }
+
+def get_marketplace_all_data(zipcode, age, gender, income, year, drug_query, state="NC", sleep_time=0.2):
+    # 1. Get county FIPS for ZIP code
+    fips_resp = requests.get(
+        f"{BASE_URL}/counties/by/zip/{zipcode}",
+        params={"apikey": API_KEY}
+    )
+    fips_resp.raise_for_status()
+    fips_data = fips_resp.json()
+    countyfips = fips_data['counties'][0]['fips']
+
+    # 2. Search for all plans
+    search_payload = {
+        "household": {
+            "income": income,
+            "people": [
+                {
+                    "age": age,
+                    "aptc_eligible": True,
+                    "gender": gender,
+                    "uses_tobacco": False
+                }
+            ]
+        },
+        "market": "Individual",
+        "place": {
+            "countyfips": countyfips,
+            "state": state,
+            "zipcode": zipcode
+        },
+        "year": year
+    }
+    plans_resp = requests.post(
+        f"{BASE_URL}/plans/search",
+        params={"apikey": API_KEY},
+        json=search_payload,
+        headers={"Content-Type": "application/json"}
+    )
+    plans_resp.raise_for_status()
+    plans_data = plans_resp.json()
+    plans = plans_data.get('plans', [])
+
+    # 3. Get drug RxCUI
+    drug_auto_resp = requests.get(
+        f"{BASE_URL}/drugs/autocomplete",
+        params={"q": drug_query, "apikey": API_KEY}
+    )
+    drug_auto_resp.raise_for_status()
+    drug_auto_data = drug_auto_resp.json()
+    
+    # Debug: Print the API response to understand its structure
+    print("\nDrug Autocomplete API Response:")
+    print(json.dumps(drug_auto_data, indent=2))
+    
+    if not drug_auto_data or not isinstance(drug_auto_data, list) or len(drug_auto_data) == 0:
+        raise Exception(f"No drug found for query: {drug_query}")
+        
+    rxcui = drug_auto_data[0]['rxcui']  # Take the first match
+
+    # 4. For each plan, get details and drug coverage
+    all_plan_details = []
+    for plan in plans:
+        plan_id = plan['id']
+
+        # Get plan details
+        plan_details_resp = requests.get(
+            f"{BASE_URL}/plans/{plan_id}",
+            params={"year": year, "apikey": API_KEY}
+        )
+        plan_details_resp.raise_for_status()
+        plan_details = plan_details_resp.json()
+
+        # Check drug coverage
+        drug_covered_resp = requests.get(
+            f"{BASE_URL}/drugs/covered",
+            params={
+                "year": year,
+                "drugs": rxcui,
+                "planids": plan_id,
+                "apikey": API_KEY
+            }
+        )
+        drug_covered_resp.raise_for_status()
+        drug_covered_data = drug_covered_resp.json()
+
+        all_plan_details.append({
+            "plan_summary": plan,
+            "plan_details": plan_details,
+            "drug_coverage": drug_covered_data
+        })
+
+        # To avoid hitting rate limits, sleep between requests
+        time.sleep(sleep_time)
+
+    return {
+        "county_fips": countyfips,
+        "plans_count": len(plans),
+        "all_plans": all_plan_details
+    }
+
+    import csv
+import os
+
+def append_to_csv(data, filename="marketplace_data.csv"):
+    # Flatten and select relevant fields for CSV
+    for plan in data['all_plans']:
+        row = {
+            "county_fips": data['county_fips'],
+            "plan_id": plan['plan_summary']['id'],
+            "plan_name": plan['plan_summary']['name'],
+            "drug_covered": plan['drug_coverage'].get('covered', False),
+            # Add more fields as needed
+        }
+        file_exists = os.path.isfile(filename)
+        with open(filename, 'a', newline='') as csvfile:
+            writer = csv.DictWriter(csvfile, fieldnames=row.keys())
+            if not file_exists:
+                writer.writeheader()
+            writer.writerow(row)
+
+
+
 if __name__ == "__main__":
-    # Example dataset ID (you can find these on data.medicaid.gov)
-    # This is an example ID - replace with the actual dataset ID you want to query
-    dataset_id = "72a84d9e-3daf-4e9e-9f62-8f7bde2abc7a"  # Example ID
-    
-    # Fetch data
-    healthcare_data = fetch_healthcare_data(dataset_id, limit=5)
-    
-    if healthcare_data is not None:
-        print("Successfully fetched healthcare data:")
-        print(healthcare_data.head())
-    else:
-        print("Failed to fetch healthcare data")
+    # Example: 2025 Individual Market Medical Plans PUF (update with actual URL)
+    data = get_marketplace_all_data("27360", 27, "Female", 52000, 2019, "ibuprof")
+    append_to_csv(data)
