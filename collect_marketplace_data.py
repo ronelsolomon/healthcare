@@ -4,14 +4,22 @@ import requests
 import pandas as pd
 import json  # Added for better error debugging
 import time  # Added for sleep functionality
+import csv
 
 # Load environment variables from .env file
 load_dotenv()
 
 # Get API key from environment variables
 API_KEY = os.getenv('API_KEY')
+if not API_KEY:
+    raise ValueError("API_KEY not found in environment variables. Please set it in the .env file.")
+
 BASE_URL = "https://marketplace.api.healthcare.gov/api/v1"
+
 def get_marketplace_all_data(zipcode, age, gender, income, year, drug_query, state="NC", sleep_time=0.2):
+    """
+    Fetch marketplace data for the given parameters
+    """
     # 1. Get county FIPS for ZIP code
     fips_resp = requests.get(
         f"{BASE_URL}/counties/by/zip/{zipcode}",
@@ -110,10 +118,10 @@ def get_marketplace_all_data(zipcode, age, gender, income, year, drug_query, sta
         "all_plans": all_plan_details
     }
 
-    import csv
-import os
-
 def append_to_csv(data, filename="marketplace_data.csv"):
+    """
+    Append the collected data to a CSV file
+    """
     # Flatten and select relevant fields for CSV
     for plan in data['all_plans']:
         row = {
@@ -130,8 +138,15 @@ def append_to_csv(data, filename="marketplace_data.csv"):
                 writer.writeheader()
             writer.writerow(row)
 
-
 if __name__ == "__main__":
     # Example: 2025 Individual Market Medical Plans PUF (update with actual URL)
-    data = get_marketplace_all_data("27360", 27, "Female", 52000, 2019, "ibuprof")
-    append_to_csv(data)
+    try:
+        data = get_marketplace_all_data("27360", 27, "Female", 52000, 2019, "ibuprof")
+        append_to_csv(data)
+        print("Data collection complete! Check marketplace_data.csv for results.")
+    except Exception as e:
+        print(f"An error occurred: {str(e)}")
+        if "401" in str(e):
+            print("Error: Invalid or missing API key. Please check your .env file.")
+        elif "404" in str(e):
+            print("Error: The requested resource was not found. Please check the API endpoint and parameters.")
