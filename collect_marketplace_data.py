@@ -129,3 +129,9 @@ def append_to_csv(data, filename="marketplace_data.csv"):
             if not file_exists:
                 writer.writeheader()
             writer.writerow(row)
+
+
+if __name__ == "__main__":
+    # Example: 2025 Individual Market Medical Plans PUF (update with actual URL)
+    data = get_marketplace_all_data("27360", 27, "Female", 52000, 2019, "ibuprof")
+    append_to_csv(data)
