@@ -1,6 +1,7 @@
 name,seq
-issuers,20
-benefits,140
-cost_sharings,280
-deductibles,28
-moops,20
+plans,10
+issuers,10
+benefits,70
+cost_sharings,140
+deductibles,14
+moops,10

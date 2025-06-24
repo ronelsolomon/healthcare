@@ -15,11 +15,27 @@ class MarketplaceDB:
         with self._get_connection() as conn:
             cursor = conn.cursor()
             
-            # Plans table
+            # Enable foreign key constraints
+            cursor.execute('PRAGMA foreign_keys = ON')
+            
+            self._create_tables()
+            
+            conn.commit()
+
+    def _create_tables(self):
+        """Create database tables if they don't exist"""
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            
+            # Enable foreign key constraints
+            cursor.execute('PRAGMA foreign_keys = ON')
+            
+            # Create plans table with updated schema
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS plans (
-                    plan_id TEXT PRIMARY KEY,
-                    name TEXT NOT NULL,
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    plan_id TEXT UNIQUE NOT NULL,
+                    name TEXT,
                     premium REAL,
                     metal_level TEXT,
                     type TEXT,
@@ -33,18 +49,26 @@ class MarketplaceDB:
                     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
                 )
             ''')
-
+            
+            # Add updated_at column if it doesn't exist
+            cursor.execute("PRAGMA table_info(plans)")
+            columns = [column[1] for column in cursor.fetchall()]
+            if 'updated_at' not in columns:
+                cursor.execute('''
+                    ALTER TABLE plans ADD COLUMN updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                ''')
+            
             # Issuers table
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS issuers (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    plan_id TEXT,
+                    plan_id TEXT NOT NULL,
                     issuer_id TEXT,
                     name TEXT,
                     state TEXT,
                     toll_free TEXT,
                     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    FOREIGN KEY (plan_id) REFERENCES plans(plan_id)
+                    FOREIGN KEY (plan_id) REFERENCES plans(plan_id) ON DELETE CASCADE
                 )
             ''')
 
@@ -52,14 +76,14 @@ class MarketplaceDB:
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS benefits (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    plan_id TEXT,
+                    plan_id TEXT NOT NULL,
                     name TEXT,
                     covered INTEGER,
                     has_limits INTEGER,
                     limit_unit TEXT,
                     limit_quantity INTEGER,
                     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    FOREIGN KEY (plan_id) REFERENCES plans(plan_id)
+                    FOREIGN KEY (plan_id) REFERENCES plans(plan_id) ON DELETE CASCADE
                 )
             ''')
 
@@ -67,7 +91,7 @@ class MarketplaceDB:
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS cost_sharings (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    plan_id TEXT,
+                    plan_id TEXT NOT NULL,
                     benefit_name TEXT,
                     network_tier TEXT,
                     copay_amount REAL,
@@ -75,7 +99,7 @@ class MarketplaceDB:
                     display_string TEXT,
                     csr TEXT,
                     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    FOREIGN KEY (plan_id) REFERENCES plans(plan_id)
+                    FOREIGN KEY (plan_id) REFERENCES plans(plan_id) ON DELETE CASCADE
                 )
             ''')
 
@@ -83,13 +107,13 @@ class MarketplaceDB:
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS deductibles (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    plan_id TEXT,
+                    plan_id TEXT NOT NULL,
                     type TEXT,
                     amount REAL,
                     network_tier TEXT,
                     family_cost REAL,
                     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    FOREIGN KEY (plan_id) REFERENCES plans(plan_id)
+                    FOREIGN KEY (plan_id) REFERENCES plans(plan_id) ON DELETE CASCADE
                 )
             ''')
 
@@ -97,13 +121,13 @@ class MarketplaceDB:
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS moops (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    plan_id TEXT,
+                    plan_id TEXT NOT NULL,
                     type TEXT,
                     amount REAL,
                     network_tier TEXT,
                     family_cost REAL,
                     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    FOREIGN KEY (plan_id) REFERENCES plans(plan_id)
+                    FOREIGN KEY (plan_id) REFERENCES plans(plan_id) ON DELETE CASCADE
                 )
             ''')
 
@@ -149,11 +173,11 @@ class MarketplaceDB:
                 ))
                 
                 # Delete existing related data to avoid duplicates
-                cursor.execute('DELETE FROM issuers WHERE plan_id = ?', (plan_data['id'],))
-                cursor.execute('DELETE FROM benefits WHERE plan_id = ?', (plan_data['id'],))
-                cursor.execute('DELETE FROM cost_sharings WHERE plan_id = ?', (plan_data['id'],))
-                cursor.execute('DELETE FROM deductibles WHERE plan_id = ?', (plan_data['id'],))
                 cursor.execute('DELETE FROM moops WHERE plan_id = ?', (plan_data['id'],))
+                cursor.execute('DELETE FROM deductibles WHERE plan_id = ?', (plan_data['id'],))
+                cursor.execute('DELETE FROM cost_sharings WHERE plan_id = ?', (plan_data['id'],))
+                cursor.execute('DELETE FROM benefits WHERE plan_id = ?', (plan_data['id'],))
+                cursor.execute('DELETE FROM issuers WHERE plan_id = ?', (plan_data['id'],))
             else:
                 # Insert new plan
                 cursor.execute('''
