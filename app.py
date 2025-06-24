@@ -9,7 +9,7 @@ import time  # Added for sleep functionality
 load_dotenv()
 
 # Get API key from environment variables
-API_KEY = os.getenv('API_KEY') or "LjVgKDYzl3BCY5NTy88P11HBxqKbVdCe"
+API_KEY = os.getenv('API_KEY')
 BASE_URL = "https://marketplace.api.healthcare.gov/api/v1"
 
 def get_marketplace_data(zipcode, age, gender, income, year, drug_query):
