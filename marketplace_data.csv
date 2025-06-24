@@ -1,0 +1,11 @@
+county_fips,plan_id,plan_name,drug_covered
+37057,11512NC0100031,Blue Value Catastrophic (limited network),False
+37057,11512NC0060027,Blue Advantage Catastrophic (broad network),False
+37057,11512NC0100001,Blue Value Bronze 7900 (limited network),False
+37057,11512NC0100028,"Blue Value Bronze 6750 (limited network, HSA eligible)",False
+37057,11512NC0100053,Blue Value Bronze 7000 (limited network),False
+37057,11512NC0060034,Blue Advantage Bronze 7900 (broad network),False
+37057,11512NC0060024,"Blue Advantage Bronze 6750 (broad network, HSA eligible)",False
+37057,11512NC0060031,Blue Advantage Bronze 7000 (broad network),False
+37057,11512NC0100032,Blue Value Silver 7000 (limited network),False
+37057,11512NC0100024,Blue Value Silver 4000 (limited network),False
