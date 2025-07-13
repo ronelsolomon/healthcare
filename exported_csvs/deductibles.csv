@@ -1,15 +1,15 @@
 id,plan_id,type,amount,network_tier,family_cost,created_at
-15,11512NC0100031,Combined Medical and Drug EHB Deductible,7900.0,In-Network,Individual,2025-07-12 03:21:17
-16,11512NC0060027,Combined Medical and Drug EHB Deductible,7900.0,In-Network,Individual,2025-07-12 03:21:17
-17,11512NC0100001,Combined Medical and Drug EHB Deductible,7900.0,In-Network,Individual,2025-07-12 03:21:17
-18,11512NC0100028,Combined Medical and Drug EHB Deductible,6750.0,In-Network,Individual,2025-07-12 03:21:17
-19,11512NC0100053,Medical EHB Deductible,7000.0,In-Network,Individual,2025-07-12 03:21:17
-20,11512NC0100053,Drug EHB Deductible,600.0,In-Network,Individual,2025-07-12 03:21:17
-21,11512NC0060034,Combined Medical and Drug EHB Deductible,7900.0,In-Network,Individual,2025-07-12 03:21:17
-22,11512NC0060024,Combined Medical and Drug EHB Deductible,6750.0,In-Network,Individual,2025-07-12 03:21:17
-23,11512NC0060031,Medical EHB Deductible,7000.0,In-Network,Individual,2025-07-12 03:21:17
-24,11512NC0060031,Drug EHB Deductible,600.0,In-Network,Individual,2025-07-12 03:21:17
-25,11512NC0100032,Medical EHB Deductible,7000.0,In-Network,Individual,2025-07-12 03:21:17
-26,11512NC0100032,Drug EHB Deductible,500.0,In-Network,Individual,2025-07-12 03:21:17
-27,11512NC0100024,Medical EHB Deductible,4000.0,In-Network,Individual,2025-07-12 03:21:17
-28,11512NC0100024,Drug EHB Deductible,350.0,In-Network,Individual,2025-07-12 03:21:17
+15,11512NC0100031,Combined Medical and Drug EHB Deductible,7900.0,In-Network,Individual,2025-07-13 03:27:33
+16,11512NC0060027,Combined Medical and Drug EHB Deductible,7900.0,In-Network,Individual,2025-07-13 03:27:33
+17,11512NC0100001,Combined Medical and Drug EHB Deductible,7900.0,In-Network,Individual,2025-07-13 03:27:33
+18,11512NC0100028,Combined Medical and Drug EHB Deductible,6750.0,In-Network,Individual,2025-07-13 03:27:33
+19,11512NC0100053,Medical EHB Deductible,7000.0,In-Network,Individual,2025-07-13 03:27:33
+20,11512NC0100053,Drug EHB Deductible,600.0,In-Network,Individual,2025-07-13 03:27:33
+21,11512NC0060034,Combined Medical and Drug EHB Deductible,7900.0,In-Network,Individual,2025-07-13 03:27:33
+22,11512NC0060024,Combined Medical and Drug EHB Deductible,6750.0,In-Network,Individual,2025-07-13 03:27:33
+23,11512NC0060031,Medical EHB Deductible,7000.0,In-Network,Individual,2025-07-13 03:27:34
+24,11512NC0060031,Drug EHB Deductible,600.0,In-Network,Individual,2025-07-13 03:27:34
+25,11512NC0100032,Medical EHB Deductible,7000.0,In-Network,Individual,2025-07-13 03:27:34
+26,11512NC0100032,Drug EHB Deductible,500.0,In-Network,Individual,2025-07-13 03:27:34
+27,11512NC0100024,Medical EHB Deductible,4000.0,In-Network,Individual,2025-07-13 03:27:34
+28,11512NC0100024,Drug EHB Deductible,350.0,In-Network,Individual,2025-07-13 03:27:34
