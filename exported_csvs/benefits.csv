@@ -1,71 +1,71 @@
 id,plan_id,name,covered,has_limits,limit_unit,limit_quantity,created_at
-71,11512NC0100031,Generic Drugs,1,0,,0,2025-10-14 02:56:42
-72,11512NC0100031,Specialist Visit,1,0,,0,2025-10-14 02:56:42
-73,11512NC0100031,Emergency Room Services,1,0,,0,2025-10-14 02:56:42
-74,11512NC0100031,Basic Dental Care - Child,1,0,,0,2025-10-14 02:56:42
-75,11512NC0100031,Primary Care Visit to Treat an Injury or Illness,1,0,,0,2025-10-14 02:56:42
-76,11512NC0100031,Dental Check-Up for Children,1,1,exam(s) per benefit period,2,2025-10-14 02:56:42
-77,11512NC0100031,Major Dental Care - Child,1,0,,0,2025-10-14 02:56:42
-78,11512NC0060027,Primary Care Visit to Treat an Injury or Illness,1,0,,0,2025-10-14 02:56:42
-79,11512NC0060027,Dental Check-Up for Children,1,1,exam(s) per benefit period,2,2025-10-14 02:56:42
-80,11512NC0060027,Major Dental Care - Child,1,0,,0,2025-10-14 02:56:42
-81,11512NC0060027,Specialist Visit,1,0,,0,2025-10-14 02:56:42
-82,11512NC0060027,Emergency Room Services,1,0,,0,2025-10-14 02:56:42
-83,11512NC0060027,Basic Dental Care - Child,1,0,,0,2025-10-14 02:56:42
-84,11512NC0060027,Generic Drugs,1,0,,0,2025-10-14 02:56:42
-85,11512NC0100001,Generic Drugs,1,0,,0,2025-10-14 02:56:42
-86,11512NC0100001,Specialist Visit,1,0,,0,2025-10-14 02:56:42
-87,11512NC0100001,Emergency Room Services,1,0,,0,2025-10-14 02:56:42
-88,11512NC0100001,Basic Dental Care - Child,1,0,,0,2025-10-14 02:56:42
-89,11512NC0100001,Primary Care Visit to Treat an Injury or Illness,1,0,,0,2025-10-14 02:56:42
-90,11512NC0100001,Dental Check-Up for Children,1,1,exam(s) per benefit period,2,2025-10-14 02:56:42
-91,11512NC0100001,Major Dental Care - Child,1,0,,0,2025-10-14 02:56:42
-92,11512NC0100028,Specialist Visit,1,0,,0,2025-10-14 02:56:42
-93,11512NC0100028,Emergency Room Services,1,0,,0,2025-10-14 02:56:42
-94,11512NC0100028,Basic Dental Care - Child,1,0,,0,2025-10-14 02:56:42
-95,11512NC0100028,Primary Care Visit to Treat an Injury or Illness,1,0,,0,2025-10-14 02:56:42
-96,11512NC0100028,Dental Check-Up for Children,1,1,exam(s) per benefit period,2,2025-10-14 02:56:42
-97,11512NC0100028,Major Dental Care - Child,1,0,,0,2025-10-14 02:56:42
-98,11512NC0100028,Generic Drugs,1,0,,0,2025-10-14 02:56:42
-99,11512NC0100053,Specialist Visit,1,0,,0,2025-10-14 02:56:42
-100,11512NC0100053,Emergency Room Services,1,0,,0,2025-10-14 02:56:42
-101,11512NC0100053,Basic Dental Care - Child,1,0,,0,2025-10-14 02:56:42
-102,11512NC0100053,Primary Care Visit to Treat an Injury or Illness,1,0,,0,2025-10-14 02:56:42
-103,11512NC0100053,Dental Check-Up for Children,1,1,exam(s) per benefit period,2,2025-10-14 02:56:42
-104,11512NC0100053,Major Dental Care - Child,1,0,,0,2025-10-14 02:56:42
-105,11512NC0100053,Generic Drugs,1,0,,0,2025-10-14 02:56:42
-106,11512NC0060034,Generic Drugs,1,0,,0,2025-10-14 02:56:42
-107,11512NC0060034,Specialist Visit,1,0,,0,2025-10-14 02:56:42
-108,11512NC0060034,Emergency Room Services,1,0,,0,2025-10-14 02:56:42
-109,11512NC0060034,Basic Dental Care - Child,1,0,,0,2025-10-14 02:56:42
-110,11512NC0060034,Primary Care Visit to Treat an Injury or Illness,1,0,,0,2025-10-14 02:56:42
-111,11512NC0060034,Dental Check-Up for Children,1,1,exam(s) per benefit period,2,2025-10-14 02:56:42
-112,11512NC0060034,Major Dental Care - Child,1,0,,0,2025-10-14 02:56:42
-113,11512NC0060024,Generic Drugs,1,0,,0,2025-10-14 02:56:42
-114,11512NC0060024,Specialist Visit,1,0,,0,2025-10-14 02:56:42
-115,11512NC0060024,Emergency Room Services,1,0,,0,2025-10-14 02:56:42
-116,11512NC0060024,Basic Dental Care - Child,1,0,,0,2025-10-14 02:56:42
-117,11512NC0060024,Primary Care Visit to Treat an Injury or Illness,1,0,,0,2025-10-14 02:56:42
-118,11512NC0060024,Dental Check-Up for Children,1,1,exam(s) per benefit period,2,2025-10-14 02:56:42
-119,11512NC0060024,Major Dental Care - Child,1,0,,0,2025-10-14 02:56:42
-120,11512NC0060031,Specialist Visit,1,0,,0,2025-10-14 02:56:42
-121,11512NC0060031,Emergency Room Services,1,0,,0,2025-10-14 02:56:42
-122,11512NC0060031,Basic Dental Care - Child,1,0,,0,2025-10-14 02:56:42
-123,11512NC0060031,Primary Care Visit to Treat an Injury or Illness,1,0,,0,2025-10-14 02:56:42
-124,11512NC0060031,Dental Check-Up for Children,1,1,exam(s) per benefit period,2,2025-10-14 02:56:42
-125,11512NC0060031,Major Dental Care - Child,1,0,,0,2025-10-14 02:56:42
-126,11512NC0060031,Generic Drugs,1,0,,0,2025-10-14 02:56:42
-127,11512NC0100032,Specialist Visit,1,0,,0,2025-10-14 02:56:42
-128,11512NC0100032,Emergency Room Services,1,0,,0,2025-10-14 02:56:42
-129,11512NC0100032,Basic Dental Care - Child,1,0,,0,2025-10-14 02:56:42
-130,11512NC0100032,Primary Care Visit to Treat an Injury or Illness,1,0,,0,2025-10-14 02:56:42
-131,11512NC0100032,Dental Check-Up for Children,1,1,exam(s) per benefit period,2,2025-10-14 02:56:42
-132,11512NC0100032,Major Dental Care - Child,1,0,,0,2025-10-14 02:56:42
-133,11512NC0100032,Generic Drugs,1,0,,0,2025-10-14 02:56:42
-134,11512NC0100024,Generic Drugs,1,0,,0,2025-10-14 02:56:42
-135,11512NC0100024,Primary Care Visit to Treat an Injury or Illness,1,0,,0,2025-10-14 02:56:42
-136,11512NC0100024,Dental Check-Up for Children,1,1,exam(s) per benefit period,2,2025-10-14 02:56:42
-137,11512NC0100024,Major Dental Care - Child,1,0,,0,2025-10-14 02:56:42
-138,11512NC0100024,Specialist Visit,1,0,,0,2025-10-14 02:56:42
-139,11512NC0100024,Emergency Room Services,1,0,,0,2025-10-14 02:56:42
-140,11512NC0100024,Basic Dental Care - Child,1,0,,0,2025-10-14 02:56:42
+71,11512NC0100031,Generic Drugs,1,0,,0,2025-10-15 03:00:11
+72,11512NC0100031,Specialist Visit,1,0,,0,2025-10-15 03:00:11
+73,11512NC0100031,Emergency Room Services,1,0,,0,2025-10-15 03:00:11
+74,11512NC0100031,Basic Dental Care - Child,1,0,,0,2025-10-15 03:00:11
+75,11512NC0100031,Primary Care Visit to Treat an Injury or Illness,1,0,,0,2025-10-15 03:00:11
+76,11512NC0100031,Dental Check-Up for Children,1,1,exam(s) per benefit period,2,2025-10-15 03:00:11
+77,11512NC0100031,Major Dental Care - Child,1,0,,0,2025-10-15 03:00:11
+78,11512NC0060027,Primary Care Visit to Treat an Injury or Illness,1,0,,0,2025-10-15 03:00:11
+79,11512NC0060027,Dental Check-Up for Children,1,1,exam(s) per benefit period,2,2025-10-15 03:00:11
+80,11512NC0060027,Major Dental Care - Child,1,0,,0,2025-10-15 03:00:11
+81,11512NC0060027,Specialist Visit,1,0,,0,2025-10-15 03:00:11
+82,11512NC0060027,Emergency Room Services,1,0,,0,2025-10-15 03:00:11
+83,11512NC0060027,Basic Dental Care - Child,1,0,,0,2025-10-15 03:00:11
+84,11512NC0060027,Generic Drugs,1,0,,0,2025-10-15 03:00:11
+85,11512NC0100001,Generic Drugs,1,0,,0,2025-10-15 03:00:11
+86,11512NC0100001,Specialist Visit,1,0,,0,2025-10-15 03:00:11
+87,11512NC0100001,Emergency Room Services,1,0,,0,2025-10-15 03:00:11
+88,11512NC0100001,Basic Dental Care - Child,1,0,,0,2025-10-15 03:00:11
+89,11512NC0100001,Primary Care Visit to Treat an Injury or Illness,1,0,,0,2025-10-15 03:00:11
+90,11512NC0100001,Dental Check-Up for Children,1,1,exam(s) per benefit period,2,2025-10-15 03:00:11
+91,11512NC0100001,Major Dental Care - Child,1,0,,0,2025-10-15 03:00:11
+92,11512NC0100028,Specialist Visit,1,0,,0,2025-10-15 03:00:11
+93,11512NC0100028,Emergency Room Services,1,0,,0,2025-10-15 03:00:11
+94,11512NC0100028,Basic Dental Care - Child,1,0,,0,2025-10-15 03:00:11
+95,11512NC0100028,Primary Care Visit to Treat an Injury or Illness,1,0,,0,2025-10-15 03:00:11
+96,11512NC0100028,Dental Check-Up for Children,1,1,exam(s) per benefit period,2,2025-10-15 03:00:11
+97,11512NC0100028,Major Dental Care - Child,1,0,,0,2025-10-15 03:00:11
+98,11512NC0100028,Generic Drugs,1,0,,0,2025-10-15 03:00:11
+99,11512NC0100053,Specialist Visit,1,0,,0,2025-10-15 03:00:11
+100,11512NC0100053,Emergency Room Services,1,0,,0,2025-10-15 03:00:11
+101,11512NC0100053,Basic Dental Care - Child,1,0,,0,2025-10-15 03:00:11
+102,11512NC0100053,Primary Care Visit to Treat an Injury or Illness,1,0,,0,2025-10-15 03:00:11
+103,11512NC0100053,Dental Check-Up for Children,1,1,exam(s) per benefit period,2,2025-10-15 03:00:11
+104,11512NC0100053,Major Dental Care - Child,1,0,,0,2025-10-15 03:00:11
+105,11512NC0100053,Generic Drugs,1,0,,0,2025-10-15 03:00:11
+106,11512NC0060034,Generic Drugs,1,0,,0,2025-10-15 03:00:11
+107,11512NC0060034,Specialist Visit,1,0,,0,2025-10-15 03:00:11
+108,11512NC0060034,Emergency Room Services,1,0,,0,2025-10-15 03:00:11
+109,11512NC0060034,Basic Dental Care - Child,1,0,,0,2025-10-15 03:00:11
+110,11512NC0060034,Primary Care Visit to Treat an Injury or Illness,1,0,,0,2025-10-15 03:00:11
+111,11512NC0060034,Dental Check-Up for Children,1,1,exam(s) per benefit period,2,2025-10-15 03:00:11
+112,11512NC0060034,Major Dental Care - Child,1,0,,0,2025-10-15 03:00:11
+113,11512NC0060024,Generic Drugs,1,0,,0,2025-10-15 03:00:11
+114,11512NC0060024,Specialist Visit,1,0,,0,2025-10-15 03:00:11
+115,11512NC0060024,Emergency Room Services,1,0,,0,2025-10-15 03:00:11
+116,11512NC0060024,Basic Dental Care - Child,1,0,,0,2025-10-15 03:00:11
+117,11512NC0060024,Primary Care Visit to Treat an Injury or Illness,1,0,,0,2025-10-15 03:00:11
+118,11512NC0060024,Dental Check-Up for Children,1,1,exam(s) per benefit period,2,2025-10-15 03:00:11
+119,11512NC0060024,Major Dental Care - Child,1,0,,0,2025-10-15 03:00:11
+120,11512NC0060031,Specialist Visit,1,0,,0,2025-10-15 03:00:11
+121,11512NC0060031,Emergency Room Services,1,0,,0,2025-10-15 03:00:11
+122,11512NC0060031,Basic Dental Care - Child,1,0,,0,2025-10-15 03:00:11
+123,11512NC0060031,Primary Care Visit to Treat an Injury or Illness,1,0,,0,2025-10-15 03:00:11
+124,11512NC0060031,Dental Check-Up for Children,1,1,exam(s) per benefit period,2,2025-10-15 03:00:11
+125,11512NC0060031,Major Dental Care - Child,1,0,,0,2025-10-15 03:00:11
+126,11512NC0060031,Generic Drugs,1,0,,0,2025-10-15 03:00:11
+127,11512NC0100032,Specialist Visit,1,0,,0,2025-10-15 03:00:11
+128,11512NC0100032,Emergency Room Services,1,0,,0,2025-10-15 03:00:11
+129,11512NC0100032,Basic Dental Care - Child,1,0,,0,2025-10-15 03:00:11
+130,11512NC0100032,Primary Care Visit to Treat an Injury or Illness,1,0,,0,2025-10-15 03:00:11
+131,11512NC0100032,Dental Check-Up for Children,1,1,exam(s) per benefit period,2,2025-10-15 03:00:11
+132,11512NC0100032,Major Dental Care - Child,1,0,,0,2025-10-15 03:00:11
+133,11512NC0100032,Generic Drugs,1,0,,0,2025-10-15 03:00:11
+134,11512NC0100024,Generic Drugs,1,0,,0,2025-10-15 03:00:11
+135,11512NC0100024,Primary Care Visit to Treat an Injury or Illness,1,0,,0,2025-10-15 03:00:11
+136,11512NC0100024,Dental Check-Up for Children,1,1,exam(s) per benefit period,2,2025-10-15 03:00:11
+137,11512NC0100024,Major Dental Care - Child,1,0,,0,2025-10-15 03:00:11
+138,11512NC0100024,Specialist Visit,1,0,,0,2025-10-15 03:00:11
+139,11512NC0100024,Emergency Room Services,1,0,,0,2025-10-15 03:00:11
+140,11512NC0100024,Basic Dental Care - Child,1,0,,0,2025-10-15 03:00:11
