@@ -1,11 +1,11 @@
 id,plan_id,name,premium,metal_level,type,state,product_division,insurance_market,hsa_eligible,has_national_network,max_age_child,created_at,updated_at
-1,11512NC0100031,Blue Value Catastrophic (limited network),205.86,Catastrophic,POS,NC,HealthCare,QHP,0,0,25,2025-06-24 19:52:29,2025-10-17 02:57:22
-2,11512NC0060027,Blue Advantage Catastrophic (broad network),251.68,Catastrophic,PPO,NC,HealthCare,QHP,0,0,25,2025-06-24 19:52:29,2025-10-17 02:57:22
-3,11512NC0100001,Blue Value Bronze 7900 (limited network),329.78,Bronze,POS,NC,HealthCare,QHP,0,0,25,2025-06-24 19:52:29,2025-10-17 02:57:22
-4,11512NC0100028,"Blue Value Bronze 6750 (limited network, HSA eligible)",339.69,Bronze,POS,NC,HealthCare,QHP,1,0,25,2025-06-24 19:52:29,2025-10-17 02:57:22
-5,11512NC0100053,Blue Value Bronze 7000 (limited network),348.1,Bronze,POS,NC,HealthCare,QHP,0,0,25,2025-06-24 19:52:29,2025-10-17 02:57:22
-6,11512NC0060034,Blue Advantage Bronze 7900 (broad network),423.21,Bronze,PPO,NC,HealthCare,QHP,0,0,25,2025-06-24 19:52:29,2025-10-17 02:57:22
-7,11512NC0060024,"Blue Advantage Bronze 6750 (broad network, HSA eligible)",434.52,Bronze,PPO,NC,HealthCare,QHP,1,0,25,2025-06-24 19:52:29,2025-10-17 02:57:22
-8,11512NC0060031,Blue Advantage Bronze 7000 (broad network),444.06,Bronze,PPO,NC,HealthCare,QHP,0,0,25,2025-06-24 19:52:29,2025-10-17 02:57:22
-9,11512NC0100032,Blue Value Silver 7000 (limited network),460.01,Silver,POS,NC,HealthCare,QHP,0,0,25,2025-06-24 19:52:29,2025-10-17 02:57:22
-10,11512NC0100024,Blue Value Silver 4000 (limited network),490.35,Silver,POS,NC,HealthCare,QHP,0,0,25,2025-06-24 19:52:29,2025-10-17 02:57:22
+1,11512NC0100031,Blue Value Catastrophic (limited network),205.86,Catastrophic,POS,NC,HealthCare,QHP,0,0,25,2025-06-24 19:52:29,2025-10-18 02:50:30
+2,11512NC0060027,Blue Advantage Catastrophic (broad network),251.68,Catastrophic,PPO,NC,HealthCare,QHP,0,0,25,2025-06-24 19:52:29,2025-10-18 02:50:30
+3,11512NC0100001,Blue Value Bronze 7900 (limited network),329.78,Bronze,POS,NC,HealthCare,QHP,0,0,25,2025-06-24 19:52:29,2025-10-18 02:50:30
+4,11512NC0100028,"Blue Value Bronze 6750 (limited network, HSA eligible)",339.69,Bronze,POS,NC,HealthCare,QHP,1,0,25,2025-06-24 19:52:29,2025-10-18 02:50:30
+5,11512NC0100053,Blue Value Bronze 7000 (limited network),348.1,Bronze,POS,NC,HealthCare,QHP,0,0,25,2025-06-24 19:52:29,2025-10-18 02:50:30
+6,11512NC0060034,Blue Advantage Bronze 7900 (broad network),423.21,Bronze,PPO,NC,HealthCare,QHP,0,0,25,2025-06-24 19:52:29,2025-10-18 02:50:30
+7,11512NC0060024,"Blue Advantage Bronze 6750 (broad network, HSA eligible)",434.52,Bronze,PPO,NC,HealthCare,QHP,1,0,25,2025-06-24 19:52:29,2025-10-18 02:50:30
+8,11512NC0060031,Blue Advantage Bronze 7000 (broad network),444.06,Bronze,PPO,NC,HealthCare,QHP,0,0,25,2025-06-24 19:52:29,2025-10-18 02:50:30
+9,11512NC0100032,Blue Value Silver 7000 (limited network),460.01,Silver,POS,NC,HealthCare,QHP,0,0,25,2025-06-24 19:52:29,2025-10-18 02:50:30
+10,11512NC0100024,Blue Value Silver 4000 (limited network),490.35,Silver,POS,NC,HealthCare,QHP,0,0,25,2025-06-24 19:52:29,2025-10-18 02:50:30
