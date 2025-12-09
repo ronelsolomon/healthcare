@@ -1,141 +1,141 @@
 id,plan_id,benefit_name,network_tier,copay_amount,coinsurance_rate,display_string,csr,created_at
-141,11512NC0100031,Generic Drugs,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-142,11512NC0100031,Generic Drugs,Out-of-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-143,11512NC0100031,Specialist Visit,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-144,11512NC0100031,Specialist Visit,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-145,11512NC0100031,Emergency Room Services,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-146,11512NC0100031,Emergency Room Services,Out-of-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-147,11512NC0100031,Basic Dental Care - Child,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-148,11512NC0100031,Basic Dental Care - Child,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-149,11512NC0100031,Primary Care Visit to Treat an Injury or Illness,In-Network,35.0,0.0,$35,Exchange variant (no CSR),2025-12-08 03:16:24
-150,11512NC0100031,Primary Care Visit to Treat an Injury or Illness,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-151,11512NC0100031,Dental Check-Up for Children,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-152,11512NC0100031,Dental Check-Up for Children,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-153,11512NC0100031,Major Dental Care - Child,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-154,11512NC0100031,Major Dental Care - Child,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-155,11512NC0060027,Primary Care Visit to Treat an Injury or Illness,In-Network,35.0,0.0,$35,Exchange variant (no CSR),2025-12-08 03:16:24
-156,11512NC0060027,Primary Care Visit to Treat an Injury or Illness,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-157,11512NC0060027,Dental Check-Up for Children,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-158,11512NC0060027,Dental Check-Up for Children,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-159,11512NC0060027,Major Dental Care - Child,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-160,11512NC0060027,Major Dental Care - Child,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-161,11512NC0060027,Specialist Visit,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-162,11512NC0060027,Specialist Visit,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-163,11512NC0060027,Emergency Room Services,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-164,11512NC0060027,Emergency Room Services,Out-of-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-165,11512NC0060027,Basic Dental Care - Child,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-166,11512NC0060027,Basic Dental Care - Child,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-167,11512NC0060027,Generic Drugs,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-168,11512NC0060027,Generic Drugs,Out-of-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-169,11512NC0100001,Generic Drugs,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-170,11512NC0100001,Generic Drugs,Out-of-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-171,11512NC0100001,Specialist Visit,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-172,11512NC0100001,Specialist Visit,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-173,11512NC0100001,Emergency Room Services,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-174,11512NC0100001,Emergency Room Services,Out-of-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-175,11512NC0100001,Basic Dental Care - Child,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-176,11512NC0100001,Basic Dental Care - Child,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-177,11512NC0100001,Primary Care Visit to Treat an Injury or Illness,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-178,11512NC0100001,Primary Care Visit to Treat an Injury or Illness,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-179,11512NC0100001,Dental Check-Up for Children,In-Network,0.0,0.0,No Charge,Exchange variant (no CSR),2025-12-08 03:16:24
-180,11512NC0100001,Dental Check-Up for Children,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-181,11512NC0100001,Major Dental Care - Child,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-182,11512NC0100001,Major Dental Care - Child,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-183,11512NC0100028,Specialist Visit,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-184,11512NC0100028,Specialist Visit,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-185,11512NC0100028,Emergency Room Services,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-186,11512NC0100028,Emergency Room Services,Out-of-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-187,11512NC0100028,Basic Dental Care - Child,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-188,11512NC0100028,Basic Dental Care - Child,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-189,11512NC0100028,Primary Care Visit to Treat an Injury or Illness,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-190,11512NC0100028,Primary Care Visit to Treat an Injury or Illness,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-191,11512NC0100028,Dental Check-Up for Children,In-Network,0.0,0.0,No Charge,Exchange variant (no CSR),2025-12-08 03:16:24
-192,11512NC0100028,Dental Check-Up for Children,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-193,11512NC0100028,Major Dental Care - Child,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-194,11512NC0100028,Major Dental Care - Child,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-195,11512NC0100028,Generic Drugs,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-196,11512NC0100028,Generic Drugs,Out-of-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-197,11512NC0100053,Specialist Visit,In-Network,100.0,0.0,$100,Exchange variant (no CSR),2025-12-08 03:16:24
-198,11512NC0100053,Specialist Visit,Out-of-Network,0.0,0.7,70% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-199,11512NC0100053,Emergency Room Services,In-Network,900.0,0.0,$900 Copay after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-200,11512NC0100053,Emergency Room Services,Out-of-Network,900.0,0.0,$900 Copay after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-201,11512NC0100053,Basic Dental Care - Child,In-Network,0.0,0.4,40% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-202,11512NC0100053,Basic Dental Care - Child,Out-of-Network,0.0,0.7,70% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-203,11512NC0100053,Primary Care Visit to Treat an Injury or Illness,In-Network,35.0,0.0,$35,Exchange variant (no CSR),2025-12-08 03:16:24
-204,11512NC0100053,Primary Care Visit to Treat an Injury or Illness,Out-of-Network,0.0,0.7,70% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-205,11512NC0100053,Dental Check-Up for Children,In-Network,0.0,0.0,No Charge,Exchange variant (no CSR),2025-12-08 03:16:24
-206,11512NC0100053,Dental Check-Up for Children,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-207,11512NC0100053,Major Dental Care - Child,In-Network,0.0,0.4,40% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-208,11512NC0100053,Major Dental Care - Child,Out-of-Network,0.0,0.7,70% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-209,11512NC0100053,Generic Drugs,In-Network,10.0,0.0,$10 Copay after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-210,11512NC0100053,Generic Drugs,Out-of-Network,10.0,0.0,$10 Copay after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-211,11512NC0060034,Generic Drugs,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-212,11512NC0060034,Generic Drugs,Out-of-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-213,11512NC0060034,Specialist Visit,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-214,11512NC0060034,Specialist Visit,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-215,11512NC0060034,Emergency Room Services,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-216,11512NC0060034,Emergency Room Services,Out-of-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-217,11512NC0060034,Basic Dental Care - Child,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-218,11512NC0060034,Basic Dental Care - Child,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-219,11512NC0060034,Primary Care Visit to Treat an Injury or Illness,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-220,11512NC0060034,Primary Care Visit to Treat an Injury or Illness,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-221,11512NC0060034,Dental Check-Up for Children,In-Network,0.0,0.0,No Charge,Exchange variant (no CSR),2025-12-08 03:16:24
-222,11512NC0060034,Dental Check-Up for Children,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-223,11512NC0060034,Major Dental Care - Child,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-224,11512NC0060034,Major Dental Care - Child,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-225,11512NC0060024,Generic Drugs,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-226,11512NC0060024,Generic Drugs,Out-of-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-227,11512NC0060024,Specialist Visit,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-228,11512NC0060024,Specialist Visit,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-229,11512NC0060024,Emergency Room Services,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-230,11512NC0060024,Emergency Room Services,Out-of-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-231,11512NC0060024,Basic Dental Care - Child,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-232,11512NC0060024,Basic Dental Care - Child,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-233,11512NC0060024,Primary Care Visit to Treat an Injury or Illness,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-234,11512NC0060024,Primary Care Visit to Treat an Injury or Illness,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-235,11512NC0060024,Dental Check-Up for Children,In-Network,0.0,0.0,No Charge,Exchange variant (no CSR),2025-12-08 03:16:24
-236,11512NC0060024,Dental Check-Up for Children,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-237,11512NC0060024,Major Dental Care - Child,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-238,11512NC0060024,Major Dental Care - Child,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-239,11512NC0060031,Specialist Visit,In-Network,100.0,0.0,$100,Exchange variant (no CSR),2025-12-08 03:16:24
-240,11512NC0060031,Specialist Visit,Out-of-Network,0.0,0.7,70% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-241,11512NC0060031,Emergency Room Services,In-Network,900.0,0.0,$900 Copay after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-242,11512NC0060031,Emergency Room Services,Out-of-Network,900.0,0.0,$900 Copay after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-243,11512NC0060031,Basic Dental Care - Child,In-Network,0.0,0.4,40% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-244,11512NC0060031,Basic Dental Care - Child,Out-of-Network,0.0,0.7,70% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-245,11512NC0060031,Primary Care Visit to Treat an Injury or Illness,In-Network,35.0,0.0,$35,Exchange variant (no CSR),2025-12-08 03:16:24
-246,11512NC0060031,Primary Care Visit to Treat an Injury or Illness,Out-of-Network,0.0,0.7,70% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-247,11512NC0060031,Dental Check-Up for Children,In-Network,0.0,0.0,No Charge,Exchange variant (no CSR),2025-12-08 03:16:24
-248,11512NC0060031,Dental Check-Up for Children,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-249,11512NC0060031,Major Dental Care - Child,In-Network,0.0,0.4,40% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-250,11512NC0060031,Major Dental Care - Child,Out-of-Network,0.0,0.7,70% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-251,11512NC0060031,Generic Drugs,In-Network,10.0,0.0,$10 Copay after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-252,11512NC0060031,Generic Drugs,Out-of-Network,10.0,0.0,$10 Copay after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-253,11512NC0100032,Specialist Visit,In-Network,90.0,0.0,$90,Exchange variant (no CSR),2025-12-08 03:16:24
-254,11512NC0100032,Specialist Visit,Out-of-Network,0.0,0.7,70% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-255,11512NC0100032,Emergency Room Services,In-Network,900.0,0.0,$900 Copay after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-256,11512NC0100032,Emergency Room Services,Out-of-Network,900.0,0.0,$900 Copay after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-257,11512NC0100032,Basic Dental Care - Child,In-Network,0.0,0.4,40% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-258,11512NC0100032,Basic Dental Care - Child,Out-of-Network,0.0,0.7,70% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-259,11512NC0100032,Primary Care Visit to Treat an Injury or Illness,In-Network,30.0,0.0,$30,Exchange variant (no CSR),2025-12-08 03:16:24
-260,11512NC0100032,Primary Care Visit to Treat an Injury or Illness,Out-of-Network,0.0,0.7,70% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-261,11512NC0100032,Dental Check-Up for Children,In-Network,0.0,0.0,No Charge,Exchange variant (no CSR),2025-12-08 03:16:24
-262,11512NC0100032,Dental Check-Up for Children,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-263,11512NC0100032,Major Dental Care - Child,In-Network,0.0,0.4,40% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-264,11512NC0100032,Major Dental Care - Child,Out-of-Network,0.0,0.7,70% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-265,11512NC0100032,Generic Drugs,In-Network,10.0,0.0,$10 Copay after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-266,11512NC0100032,Generic Drugs,Out-of-Network,10.0,0.0,$10 Copay after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-267,11512NC0100024,Generic Drugs,In-Network,10.0,0.0,$10 Copay after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-268,11512NC0100024,Generic Drugs,Out-of-Network,10.0,0.0,$10 Copay after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-269,11512NC0100024,Primary Care Visit to Treat an Injury or Illness,In-Network,10.0,0.0,$10,Exchange variant (no CSR),2025-12-08 03:16:24
-270,11512NC0100024,Primary Care Visit to Treat an Injury or Illness,Out-of-Network,0.0,0.6,60% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-271,11512NC0100024,Dental Check-Up for Children,In-Network,0.0,0.0,No Charge,Exchange variant (no CSR),2025-12-08 03:16:24
-272,11512NC0100024,Dental Check-Up for Children,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-273,11512NC0100024,Major Dental Care - Child,In-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-274,11512NC0100024,Major Dental Care - Child,Out-of-Network,0.0,0.6,60% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-275,11512NC0100024,Specialist Visit,In-Network,40.0,0.0,$40,Exchange variant (no CSR),2025-12-08 03:16:24
-276,11512NC0100024,Specialist Visit,Out-of-Network,0.0,0.6,60% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-277,11512NC0100024,Emergency Room Services,In-Network,600.0,0.0,$600 Copay after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-278,11512NC0100024,Emergency Room Services,Out-of-Network,600.0,0.0,$600 Copay after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-279,11512NC0100024,Basic Dental Care - Child,In-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
-280,11512NC0100024,Basic Dental Care - Child,Out-of-Network,0.0,0.6,60% Coinsurance after deductible,Exchange variant (no CSR),2025-12-08 03:16:24
+141,11512NC0100031,Generic Drugs,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+142,11512NC0100031,Generic Drugs,Out-of-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+143,11512NC0100031,Specialist Visit,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+144,11512NC0100031,Specialist Visit,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+145,11512NC0100031,Emergency Room Services,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+146,11512NC0100031,Emergency Room Services,Out-of-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+147,11512NC0100031,Basic Dental Care - Child,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+148,11512NC0100031,Basic Dental Care - Child,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+149,11512NC0100031,Primary Care Visit to Treat an Injury or Illness,In-Network,35.0,0.0,$35,Exchange variant (no CSR),2025-12-09 03:13:50
+150,11512NC0100031,Primary Care Visit to Treat an Injury or Illness,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+151,11512NC0100031,Dental Check-Up for Children,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+152,11512NC0100031,Dental Check-Up for Children,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+153,11512NC0100031,Major Dental Care - Child,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+154,11512NC0100031,Major Dental Care - Child,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+155,11512NC0060027,Primary Care Visit to Treat an Injury or Illness,In-Network,35.0,0.0,$35,Exchange variant (no CSR),2025-12-09 03:13:50
+156,11512NC0060027,Primary Care Visit to Treat an Injury or Illness,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+157,11512NC0060027,Dental Check-Up for Children,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+158,11512NC0060027,Dental Check-Up for Children,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+159,11512NC0060027,Major Dental Care - Child,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+160,11512NC0060027,Major Dental Care - Child,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+161,11512NC0060027,Specialist Visit,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+162,11512NC0060027,Specialist Visit,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+163,11512NC0060027,Emergency Room Services,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+164,11512NC0060027,Emergency Room Services,Out-of-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+165,11512NC0060027,Basic Dental Care - Child,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+166,11512NC0060027,Basic Dental Care - Child,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+167,11512NC0060027,Generic Drugs,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+168,11512NC0060027,Generic Drugs,Out-of-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+169,11512NC0100001,Generic Drugs,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+170,11512NC0100001,Generic Drugs,Out-of-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+171,11512NC0100001,Specialist Visit,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+172,11512NC0100001,Specialist Visit,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+173,11512NC0100001,Emergency Room Services,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+174,11512NC0100001,Emergency Room Services,Out-of-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+175,11512NC0100001,Basic Dental Care - Child,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+176,11512NC0100001,Basic Dental Care - Child,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+177,11512NC0100001,Primary Care Visit to Treat an Injury or Illness,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+178,11512NC0100001,Primary Care Visit to Treat an Injury or Illness,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+179,11512NC0100001,Dental Check-Up for Children,In-Network,0.0,0.0,No Charge,Exchange variant (no CSR),2025-12-09 03:13:50
+180,11512NC0100001,Dental Check-Up for Children,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+181,11512NC0100001,Major Dental Care - Child,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+182,11512NC0100001,Major Dental Care - Child,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+183,11512NC0100028,Specialist Visit,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+184,11512NC0100028,Specialist Visit,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+185,11512NC0100028,Emergency Room Services,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+186,11512NC0100028,Emergency Room Services,Out-of-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+187,11512NC0100028,Basic Dental Care - Child,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+188,11512NC0100028,Basic Dental Care - Child,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+189,11512NC0100028,Primary Care Visit to Treat an Injury or Illness,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+190,11512NC0100028,Primary Care Visit to Treat an Injury or Illness,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+191,11512NC0100028,Dental Check-Up for Children,In-Network,0.0,0.0,No Charge,Exchange variant (no CSR),2025-12-09 03:13:50
+192,11512NC0100028,Dental Check-Up for Children,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+193,11512NC0100028,Major Dental Care - Child,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+194,11512NC0100028,Major Dental Care - Child,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+195,11512NC0100028,Generic Drugs,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+196,11512NC0100028,Generic Drugs,Out-of-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+197,11512NC0100053,Specialist Visit,In-Network,100.0,0.0,$100,Exchange variant (no CSR),2025-12-09 03:13:50
+198,11512NC0100053,Specialist Visit,Out-of-Network,0.0,0.7,70% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+199,11512NC0100053,Emergency Room Services,In-Network,900.0,0.0,$900 Copay after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+200,11512NC0100053,Emergency Room Services,Out-of-Network,900.0,0.0,$900 Copay after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+201,11512NC0100053,Basic Dental Care - Child,In-Network,0.0,0.4,40% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+202,11512NC0100053,Basic Dental Care - Child,Out-of-Network,0.0,0.7,70% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+203,11512NC0100053,Primary Care Visit to Treat an Injury or Illness,In-Network,35.0,0.0,$35,Exchange variant (no CSR),2025-12-09 03:13:50
+204,11512NC0100053,Primary Care Visit to Treat an Injury or Illness,Out-of-Network,0.0,0.7,70% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+205,11512NC0100053,Dental Check-Up for Children,In-Network,0.0,0.0,No Charge,Exchange variant (no CSR),2025-12-09 03:13:50
+206,11512NC0100053,Dental Check-Up for Children,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+207,11512NC0100053,Major Dental Care - Child,In-Network,0.0,0.4,40% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+208,11512NC0100053,Major Dental Care - Child,Out-of-Network,0.0,0.7,70% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+209,11512NC0100053,Generic Drugs,In-Network,10.0,0.0,$10 Copay after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+210,11512NC0100053,Generic Drugs,Out-of-Network,10.0,0.0,$10 Copay after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+211,11512NC0060034,Generic Drugs,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+212,11512NC0060034,Generic Drugs,Out-of-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+213,11512NC0060034,Specialist Visit,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+214,11512NC0060034,Specialist Visit,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+215,11512NC0060034,Emergency Room Services,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+216,11512NC0060034,Emergency Room Services,Out-of-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+217,11512NC0060034,Basic Dental Care - Child,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+218,11512NC0060034,Basic Dental Care - Child,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+219,11512NC0060034,Primary Care Visit to Treat an Injury or Illness,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+220,11512NC0060034,Primary Care Visit to Treat an Injury or Illness,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+221,11512NC0060034,Dental Check-Up for Children,In-Network,0.0,0.0,No Charge,Exchange variant (no CSR),2025-12-09 03:13:50
+222,11512NC0060034,Dental Check-Up for Children,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+223,11512NC0060034,Major Dental Care - Child,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+224,11512NC0060034,Major Dental Care - Child,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+225,11512NC0060024,Generic Drugs,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+226,11512NC0060024,Generic Drugs,Out-of-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+227,11512NC0060024,Specialist Visit,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+228,11512NC0060024,Specialist Visit,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+229,11512NC0060024,Emergency Room Services,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+230,11512NC0060024,Emergency Room Services,Out-of-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+231,11512NC0060024,Basic Dental Care - Child,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+232,11512NC0060024,Basic Dental Care - Child,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+233,11512NC0060024,Primary Care Visit to Treat an Injury or Illness,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+234,11512NC0060024,Primary Care Visit to Treat an Injury or Illness,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+235,11512NC0060024,Dental Check-Up for Children,In-Network,0.0,0.0,No Charge,Exchange variant (no CSR),2025-12-09 03:13:50
+236,11512NC0060024,Dental Check-Up for Children,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+237,11512NC0060024,Major Dental Care - Child,In-Network,0.0,0.0,No Charge After Deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+238,11512NC0060024,Major Dental Care - Child,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+239,11512NC0060031,Specialist Visit,In-Network,100.0,0.0,$100,Exchange variant (no CSR),2025-12-09 03:13:50
+240,11512NC0060031,Specialist Visit,Out-of-Network,0.0,0.7,70% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+241,11512NC0060031,Emergency Room Services,In-Network,900.0,0.0,$900 Copay after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+242,11512NC0060031,Emergency Room Services,Out-of-Network,900.0,0.0,$900 Copay after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+243,11512NC0060031,Basic Dental Care - Child,In-Network,0.0,0.4,40% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+244,11512NC0060031,Basic Dental Care - Child,Out-of-Network,0.0,0.7,70% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+245,11512NC0060031,Primary Care Visit to Treat an Injury or Illness,In-Network,35.0,0.0,$35,Exchange variant (no CSR),2025-12-09 03:13:50
+246,11512NC0060031,Primary Care Visit to Treat an Injury or Illness,Out-of-Network,0.0,0.7,70% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+247,11512NC0060031,Dental Check-Up for Children,In-Network,0.0,0.0,No Charge,Exchange variant (no CSR),2025-12-09 03:13:50
+248,11512NC0060031,Dental Check-Up for Children,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+249,11512NC0060031,Major Dental Care - Child,In-Network,0.0,0.4,40% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+250,11512NC0060031,Major Dental Care - Child,Out-of-Network,0.0,0.7,70% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+251,11512NC0060031,Generic Drugs,In-Network,10.0,0.0,$10 Copay after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+252,11512NC0060031,Generic Drugs,Out-of-Network,10.0,0.0,$10 Copay after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+253,11512NC0100032,Specialist Visit,In-Network,90.0,0.0,$90,Exchange variant (no CSR),2025-12-09 03:13:50
+254,11512NC0100032,Specialist Visit,Out-of-Network,0.0,0.7,70% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+255,11512NC0100032,Emergency Room Services,In-Network,900.0,0.0,$900 Copay after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+256,11512NC0100032,Emergency Room Services,Out-of-Network,900.0,0.0,$900 Copay after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+257,11512NC0100032,Basic Dental Care - Child,In-Network,0.0,0.4,40% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+258,11512NC0100032,Basic Dental Care - Child,Out-of-Network,0.0,0.7,70% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+259,11512NC0100032,Primary Care Visit to Treat an Injury or Illness,In-Network,30.0,0.0,$30,Exchange variant (no CSR),2025-12-09 03:13:50
+260,11512NC0100032,Primary Care Visit to Treat an Injury or Illness,Out-of-Network,0.0,0.7,70% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+261,11512NC0100032,Dental Check-Up for Children,In-Network,0.0,0.0,No Charge,Exchange variant (no CSR),2025-12-09 03:13:50
+262,11512NC0100032,Dental Check-Up for Children,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+263,11512NC0100032,Major Dental Care - Child,In-Network,0.0,0.4,40% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+264,11512NC0100032,Major Dental Care - Child,Out-of-Network,0.0,0.7,70% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+265,11512NC0100032,Generic Drugs,In-Network,10.0,0.0,$10 Copay after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+266,11512NC0100032,Generic Drugs,Out-of-Network,10.0,0.0,$10 Copay after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+267,11512NC0100024,Generic Drugs,In-Network,10.0,0.0,$10 Copay after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+268,11512NC0100024,Generic Drugs,Out-of-Network,10.0,0.0,$10 Copay after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+269,11512NC0100024,Primary Care Visit to Treat an Injury or Illness,In-Network,10.0,0.0,$10,Exchange variant (no CSR),2025-12-09 03:13:50
+270,11512NC0100024,Primary Care Visit to Treat an Injury or Illness,Out-of-Network,0.0,0.6,60% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+271,11512NC0100024,Dental Check-Up for Children,In-Network,0.0,0.0,No Charge,Exchange variant (no CSR),2025-12-09 03:13:50
+272,11512NC0100024,Dental Check-Up for Children,Out-of-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+273,11512NC0100024,Major Dental Care - Child,In-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+274,11512NC0100024,Major Dental Care - Child,Out-of-Network,0.0,0.6,60% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+275,11512NC0100024,Specialist Visit,In-Network,40.0,0.0,$40,Exchange variant (no CSR),2025-12-09 03:13:50
+276,11512NC0100024,Specialist Visit,Out-of-Network,0.0,0.6,60% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+277,11512NC0100024,Emergency Room Services,In-Network,600.0,0.0,$600 Copay after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+278,11512NC0100024,Emergency Room Services,Out-of-Network,600.0,0.0,$600 Copay after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+279,11512NC0100024,Basic Dental Care - Child,In-Network,0.0,0.3,30% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
+280,11512NC0100024,Basic Dental Care - Child,Out-of-Network,0.0,0.6,60% Coinsurance after deductible,Exchange variant (no CSR),2025-12-09 03:13:50
